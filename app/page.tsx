@@ -1,5 +1,11 @@
 "use client";
 
+import HeroSection from "@/components/sections/hero-section";
+
 export default function Home() {
-  return <div>{/* <h1>Hello World</h1> */}</div>;
+  return (
+    <main>
+      <HeroSection />
+    </main>
+  );
 }

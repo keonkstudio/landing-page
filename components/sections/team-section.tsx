@@ -9,11 +9,11 @@ export default function TeamSection() {
       <MaxWidthWrapper className="py-20">
         <div className="space-y-15">
           <div className="flex flex-col items-center gap-5 text-center">
-            <BrutalistCard className="size-fit bg-blue-300">
+            <BrutalistCard className="size-fit bg-blue-300 px-3.5 py-1 text-sm">
               <FaPaw className="text-white" style={{ stroke: "black", strokeWidth: 20 }} />
               <h2>Tim Kami</h2>
             </BrutalistCard>
-            <p className="text-4xl font-medium">Para Keonk Di Baliknya</p>
+            <p className="text-4xl font-semibold">Para Keonk Di Baliknya</p>
           </div>
           <div className="grid grid-cols-4 gap-4">
             <BrutalistCard className="flex-col items-center bg-white p-5">

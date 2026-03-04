@@ -8,11 +8,11 @@ export default function AboutSection() {
       <MaxWidthWrapper className="py-20">
         <div className="space-y-15">
           <div className="flex flex-col items-center gap-5 text-center">
-            <BrutalistCard className="size-fit bg-blue-300">
+            <BrutalistCard className="size-fit bg-blue-300 px-3.5 py-1 text-sm">
               <FaPaw className="text-white" style={{ stroke: "black", strokeWidth: 20 }} />
               <h2>Tentang Kami</h2>
             </BrutalistCard>
-            <p className="text-4xl font-medium">Komunitas Roblox Keonk</p>
+            <p className="text-4xl font-semibold">Komunitas Roblox Kucink</p>
             <p className="max-w-145 text-gray-500">
               Keonk Studio adalah komunitas developer Roblox yang fokus membuat game dan map bertema kucing. Kami percaya bahwa kucing + Roblox =
               kombinasi yang sempurna!{" "}

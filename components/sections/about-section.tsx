@@ -5,7 +5,7 @@ import BrutalistCard from "../ui/brutalist-card";
 export default function AboutSection() {
   return (
     <section id="about">
-      <MaxWidthWrapper className="space-y-4 py-10">
+      <MaxWidthWrapper className="py-20">
         <div className="space-y-15">
           <div className="flex flex-col items-center gap-5 text-center">
             <BrutalistCard className="size-fit bg-blue-300">

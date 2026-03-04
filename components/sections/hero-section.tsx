@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export default function HeroSection() {
   return (
     <section id="hero">
-      <MaxWidthWrapper className="flex min-h-screen items-center pt-30 pb-20">
+      <MaxWidthWrapper className="flex min-h-screen items-center py-30">
         <div className="flex w-full justify-between gap-20">
           <div className="flex flex-col justify-center gap-2">
             <BrutalistCard className="w-fit bg-blue-300">

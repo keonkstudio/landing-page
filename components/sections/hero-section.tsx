@@ -10,7 +10,7 @@ export default function HeroSection() {
       <MaxWidthWrapper className="flex min-h-screen items-center py-30">
         <div className="flex w-full justify-between gap-20">
           <div className="flex flex-col justify-center gap-2">
-            <BrutalistCard className="w-fit bg-blue-300 text-sm">
+            <BrutalistCard className="w-fit bg-blue-300 text-sm duration-300 hover:scale-105 hover:-rotate-2">
               <FaPaw className="text-white" style={{ stroke: "black", strokeWidth: 20 }} />
               <span>Komunitas Roblox Bertema Kucing</span>
             </BrutalistCard>
@@ -18,15 +18,15 @@ export default function HeroSection() {
               Keonk <br /> <span className="-mx-2 bg-black px-2 text-white">Studio</span>
             </h1>
             <div className="mt-3 flex items-center gap-2">
-              <BrutalistCard className="bg-blue-300 py-0.5 text-sm shadow-none hover:shadow-none">
+              <BrutalistCard className="-rotate-1 bg-blue-300 py-0.5 text-sm shadow-none duration-200 hover:rotate-2 hover:shadow-none">
                 <FaCat className="text-white" style={{ stroke: "black", strokeWidth: 10 }} />
                 <span>Keonk</span>
               </BrutalistCard>
-              <BrutalistCard className="bg-blue-300 py-0.5 text-sm shadow-none hover:shadow-none">
+              <BrutalistCard className="rotate-1 bg-blue-300 py-0.5 text-sm shadow-none duration-200 hover:-rotate-2 hover:shadow-none">
                 <FaGamepad className="text-white" style={{ stroke: "black", strokeWidth: 10 }} />
                 <span>Roblog</span>
               </BrutalistCard>
-              <BrutalistCard className="bg-blue-300 py-0.5 text-sm shadow-none hover:shadow-none">
+              <BrutalistCard className="-rotate-1 bg-blue-300 py-0.5 text-sm shadow-none duration-200 hover:rotate-2 hover:shadow-none">
                 <FaGamepad className="text-white" style={{ stroke: "black", strokeWidth: 10 }} />
                 <span>Fun</span>
               </BrutalistCard>

@@ -8,7 +8,7 @@ export default function AboutSection() {
       <MaxWidthWrapper className="py-20">
         <div className="space-y-15">
           <div className="flex flex-col items-center gap-5 text-center">
-            <BrutalistCard className="size-fit bg-blue-300 px-3.5 py-1 text-sm">
+            <BrutalistCard className="size-fit rotate-2 bg-blue-300 px-3.5 py-1 text-sm duration-300 hover:-rotate-3">
               <FaPaw className="text-white" style={{ stroke: "black", strokeWidth: 20 }} />
               <h2>Tentang Kami</h2>
             </BrutalistCard>

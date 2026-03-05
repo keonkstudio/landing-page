@@ -7,17 +7,18 @@ export default function TeamSection() {
   return (
     <section id="team">
       <MaxWidthWrapper className="py-20">
-        <div className="space-y-15">
-          <div className="flex flex-col items-center gap-5 text-center">
+        <div className="space-y-12 md:space-y-15">
+          <div className="flex flex-col items-center gap-3.5 text-center md:gap-5">
             <BrutalistCard className="size-fit rotate-2 bg-green-200 px-3.5 py-1 text-sm duration-300 hover:-rotate-3">
               <FaPaw className="text-white" style={{ stroke: "black", strokeWidth: 20 }} />
               <h2>Tim Kami</h2>
             </BrutalistCard>
-            <p className="text-4xl font-semibold">
-              Para <span className="inline-block size-fit rotate-3 border-3 border-dashed border-red-500 px-2 text-red-400">Keonk</span> Di Baliknya
+            <p className="text-2xl font-semibold md:text-4xl">
+              Para <span className="mt-2 inline-block size-fit rotate-3 border-3 border-dashed border-red-500 px-2 text-red-400">Keonk</span> Di
+              Baliknya
             </p>
           </div>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             <BrutalistCard className="flex-col items-center bg-white p-5">
               <div className="flex w-full flex-col items-center gap-2 text-center">
                 <div className="border-2 border-black bg-green-400 p-3">

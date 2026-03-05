@@ -8,11 +8,13 @@ export default function FeatureSection() {
       <MaxWidthWrapper className="py-20">
         <div className="space-y-15">
           <div className="flex flex-col items-center gap-5 text-center">
-            <BrutalistCard className="size-fit -rotate-2 bg-blue-300 px-3.5 py-1 text-sm duration-300 hover:rotate-3">
+            <BrutalistCard className="size-fit -rotate-2 bg-green-200 px-3.5 py-1 text-sm duration-300 hover:rotate-3">
               <FaPaw className="text-white" style={{ stroke: "black", strokeWidth: 20 }} />
               <h2>Fitur Unggulan</h2>
             </BrutalistCard>
-            <p className="text-4xl font-semibold">Yang Bikin Seru</p>
+            <p className="text-4xl font-semibold">
+              Yang Bikin <span className="inline-block size-fit -rotate-3 border-3 border-dashed border-red-500 px-2 text-red-400">Seru</span>
+            </p>
           </div>
           <div className="grid grid-cols-3 gap-4">
             <BrutalistCard className="flex-col items-center bg-white p-5">

@@ -10,7 +10,7 @@ export default function HeroSection() {
     <section id="hero">
       <MaxWidthWrapper className="flex min-h-screen items-center py-45 md:py-30">
         <div className="grid w-full gap-45 md:grid-cols-2 md:gap-7">
-          <div className="flex flex-col items-center justify-center gap-3.5 text-center md:items-start md:gap-5 md:text-start">
+          <div className="flex flex-col items-center justify-center gap-3.5 text-center md:items-start md:gap-1.5 md:text-start">
             <BrutalistCard className="w-fit bg-green-200 text-sm duration-300 hover:scale-105 hover:-rotate-2">
               <FaPaw className="text-white" style={{ stroke: "black", strokeWidth: 20, fill: "green" }} />
               <span>Komunitas Roblox Bertema Kucing</span>

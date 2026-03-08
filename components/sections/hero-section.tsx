@@ -37,10 +37,12 @@ export default function HeroSection() {
             </p>
 
             <div className="mt-3 flex gap-3">
-              <BrutalistCard className="bg-red-500 px-4 py-2 font-semibold text-white">
-                <span>Gabung Sekarang</span>
-                <ArrowRight className="-mb-1 size-4" />
-              </BrutalistCard>
+              <a href="https://www.roblox.com/communities/970475867/Keonk-Studio" target="_blank" rel="noopener noreferrer">
+                <BrutalistCard className="bg-red-500 px-4 py-2 font-semibold text-white">
+                  <span>Gabung Sekarang</span>
+                  <ArrowRight className="-mb-1 size-4" />
+                </BrutalistCard>
+              </a>
               <BrutalistCard className="bg-white px-4 py-2 font-semibold">Tentang Keonk</BrutalistCard>
             </div>
             {/* <BrutalistCard className="p-2 rotate-2 size-fit md:hidden mt-13 mb-10 self-center">
